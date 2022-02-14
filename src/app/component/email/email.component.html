@@ -1,0 +1,30 @@
+<div class="cotainer">
+    <div class="card">
+        <h1 class="text-center">Compose Your Email</h1>
+        <form class="form-control" (ngSubmit)="doSubmitForm()">
+            <mat-form-field class="field" appearance="outline">
+                <mat-label>Email</mat-label>
+                <input name="fromEmail" [(ngModel)]="data.fromEmail" matInput placeholder="Enter Your Email">
+            </mat-form-field>
+            <mat-form-field class="field" appearance="outline">
+                <mat-label>Password</mat-label>
+                <input type="password" name="password" [(ngModel)]="data.password" matInput placeholder="Enter Your Password">
+            </mat-form-field>
+            <mat-form-field class="field" appearance="outline">
+                <mat-label>To</mat-label>
+                <input name="toEmail" [(ngModel)]="data.toEmail" matInput placeholder="Enter Receiver's Email">
+            </mat-form-field>
+            <mat-form-field class="field" appearance="outline">
+                <mat-label>Subject</mat-label>
+                <input name="subject" [(ngModel)]="data.subject" matInput placeholder="Enter Subject">
+            </mat-form-field>
+            <mat-form-field class="field" appearance="outline">
+                <mat-label>Email Content</mat-label>
+                <textarea rows="5" name="message" [(ngModel)]="data.message" matInput placeholder="Enter Your Message Here..."></textarea>
+            </mat-form-field>
+            <mat-spinner *ngIf="!flag" class="field"></mat-spinner>
+            <button [disabled]="!flag" type="submit" mat-raised-button color="primary">Send</button>
+            <button type="reset" mat-raised-button color="secondary">Reset</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+.card {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+}
+.field {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.text-center {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form-control {
+  text-align: center;
+}
+
+.form-control button {
+  margin: 5px;
+}
