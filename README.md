@@ -1,6 +1,6 @@
-# Emailui
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+# EmailUI
+<li> This Project is front end for Spring Boot Project Email-API (https://github.com/l33t-c0d3r-66/Email-API)
+<li> This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.  
 
 ## Development server
 
@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+  
+## Screenshots for Project:
+  
+<img src="https://github.com/l33t-c0d3r-66/EmailUI/blob/master/project_images/ss1.png">
+  
+  
+<img src="https://github.com/l33t-c0d3r-66/EmailUI/blob/master/project_images/ss2.png">
